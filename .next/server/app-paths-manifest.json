@@ -2,5 +2,6 @@
   "/page": "app/page.js",
   "/news/page": "app/news/page.js",
   "/news/[slug]/page": "app/news/[slug]/page.js",
-  "/icon.jpg/route": "app/icon.jpg/route.js"
+  "/archive/@archive/page": "app/archive/@archive/page.js",
+  "/archive/@latest/page": "app/archive/@latest/page.js"
 }
