@@ -21,10 +21,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/news/[slug]/page.js"
     ],
-    "/not-found": [
+    "/news/[slug]/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+      "static/chunks/app/news/[slug]/not-found.js"
     ]
   }
 }

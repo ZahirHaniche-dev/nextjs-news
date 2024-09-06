@@ -1,21 +1,23 @@
 import { DUMMY_NEWS } from '@/dummy-news';
-import React from 'react'
+import { notFound } from 'next/navigation';
 
 export default function pageDetail({params}) {
     const newsSlug = params.slug;
-    const newsItems = DUMMY_NEWS.find(newsItems => newsItems.slug === newsSlug);
+    const newsItem = DUMMY_NEWS.find((newsItem) => newsItem.slug === newsSlug);
 
-    console.log(newsItems);
-    
+    if(!newsItem) {
+       notFound();
+    }
+
   return (
     <article className='news-article'>
       <header>
-        <img src={`/images/news/${newsItems.image}`} alt={newsItems.title} />
-        <h1>{newsItems.title}</h1>
-        <time dateTime={newsItems.date}>{newsItems.date}</time>
+        <img src={`/images/news/${newsItem.image}`} alt={newsItem.title} />
+        <h1>{newsItem.title}</h1>
+        <time dateTime={newsItem.date}>{newsItem.date}</time>
       </header>
         
-        <p>{newsItems.content}</p>
+        <p>{newsItem.content}</p>
     </article>
   )
 }
