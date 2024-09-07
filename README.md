@@ -1,4 +1,4 @@
-# News NextJS Application - Routing & Page Rendering - Deep Dive
+# News NextJS Application - Deep Dive - Routing & Page Rendering
 
 
 ## Welcome! 👋
