@@ -1,5 +1,5 @@
-import NewsList from '../../../components/news-list';
-import { getLatestNews } from '../../../lib/news';
+import NewsList from '../../../../components/news-list';
+import { getLatestNews } from '../../../../lib/news';
 
 export default function LatestNewsPage() {
 

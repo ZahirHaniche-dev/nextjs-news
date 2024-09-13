@@ -1,5 +1,5 @@
 import React from 'react'
-import { DUMMY_NEWS } from '../../../../dummy-news'
+import { DUMMY_NEWS } from '../../../../../dummy-news'
 
 export default function ImagePage({params}) {
     const newsItemSlug = params.slug;

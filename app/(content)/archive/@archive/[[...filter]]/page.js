@@ -1,8 +1,7 @@
 import React from 'react'
-import { getAvailableNewsYears, getAvailableNewsMonths, getNewsForYear, getNewsForYearAndMonth } from '../../../../lib/news';
-import NewsList from '../../../../components/news-list';
+import { getAvailableNewsYears, getAvailableNewsMonths, getNewsForYear, getNewsForYearAndMonth } from '../../../../../lib/news';
+import NewsList from '../../../../../components/news-list';
 import Link from 'next/link';
-import { log } from 'console';
 
 export default function FilteredNewsPage({ params }) {
   const filter = params.filter;
