@@ -2501,6 +2501,16 @@ eval("\nmodule.exports = __webpack_require__(/*! ../../module.compiled */ \"(ssr
 
 /***/ }),
 
+/***/ "(rsc)/./node_modules/next/dist/server/future/route-modules/app-route/module.compiled.js":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/next/dist/server/future/route-modules/app-route/module.compiled.js ***!
+  \*****************************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("\nif (false) {} else {\n    if (true) {\n        module.exports = __webpack_require__(/*! next/dist/compiled/next-server/app-route.runtime.dev.js */ \"next/dist/compiled/next-server/app-route.runtime.dev.js\");\n    } else {}\n} //# sourceMappingURL=module.compiled.js.map\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L3NlcnZlci9mdXR1cmUvcm91dGUtbW9kdWxlcy9hcHAtcm91dGUvbW9kdWxlLmNvbXBpbGVkLmpzIiwibWFwcGluZ3MiOiJBQUFhO0FBQ2IsSUFBSUEsS0FBbUMsRUFBRSxFQUV4QyxNQUFNO0lBQ0gsSUFBSUEsSUFBc0MsRUFBRTtRQUN4Q0csOEpBQW1GO0lBQ3ZGLE9BQU8sRUFJTjtBQUNMLEVBRUEsMkNBQTJDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcm91dGluZy1yZW5kZXJpbmcvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L3NlcnZlci9mdXR1cmUvcm91dGUtbW9kdWxlcy9hcHAtcm91dGUvbW9kdWxlLmNvbXBpbGVkLmpzPzg4MDYiXSwic291cmNlc0NvbnRlbnQiOlsiXCJ1c2Ugc3RyaWN0XCI7XG5pZiAocHJvY2Vzcy5lbnYuTkVYVF9SVU5USU1FID09PSBcImVkZ2VcIikge1xuICAgIG1vZHVsZS5leHBvcnRzID0gcmVxdWlyZShcIm5leHQvZGlzdC9zZXJ2ZXIvZnV0dXJlL3JvdXRlLW1vZHVsZXMvYXBwLXJvdXRlL21vZHVsZS5qc1wiKTtcbn0gZWxzZSB7XG4gICAgaWYgKHByb2Nlc3MuZW52Lk5PREVfRU5WID09PSBcImRldmVsb3BtZW50XCIpIHtcbiAgICAgICAgbW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKFwibmV4dC9kaXN0L2NvbXBpbGVkL25leHQtc2VydmVyL2FwcC1yb3V0ZS5ydW50aW1lLmRldi5qc1wiKTtcbiAgICB9IGVsc2UgaWYgKHByb2Nlc3MuZW52LlRVUkJPUEFDSykge1xuICAgICAgICBtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoXCJuZXh0L2Rpc3QvY29tcGlsZWQvbmV4dC1zZXJ2ZXIvYXBwLXJvdXRlLXR1cmJvLnJ1bnRpbWUucHJvZC5qc1wiKTtcbiAgICB9IGVsc2Uge1xuICAgICAgICBtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoXCJuZXh0L2Rpc3QvY29tcGlsZWQvbmV4dC1zZXJ2ZXIvYXBwLXJvdXRlLnJ1bnRpbWUucHJvZC5qc1wiKTtcbiAgICB9XG59XG5cbi8vIyBzb3VyY2VNYXBwaW5nVVJMPW1vZHVsZS5jb21waWxlZC5qcy5tYXAiXSwibmFtZXMiOlsicHJvY2VzcyIsImVudiIsIk5FWFRfUlVOVElNRSIsIm1vZHVsZSIsImV4cG9ydHMiLCJyZXF1aXJlIiwiVFVSQk9QQUNLIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/server/future/route-modules/app-route/module.compiled.js\n");
+
+/***/ }),
+
 /***/ "(rsc)/./node_modules/next/dist/server/lib/patch-fetch.js":
 /*!**********************************************************!*\
   !*** ./node_modules/next/dist/server/lib/patch-fetch.js ***!
