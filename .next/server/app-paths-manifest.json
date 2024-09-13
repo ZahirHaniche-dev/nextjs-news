@@ -1,7 +1,9 @@
 {
   "/news/page": "app/news/page.js",
   "/news/[slug]/page": "app/news/[slug]/page.js",
+  "/news/[slug]/image/page": "app/news/[slug]/image/page.js",
+  "/page": "app/page.js",
+  "/news/[slug]/(.)image/page": "app/news/[slug]/(.)image/page.js",
   "/icon.jpg/route": "app/icon.jpg/route.js",
-  "/archive/@archive/[[...filter]]/page": "app/archive/@archive/[[...filter]]/page.js",
-  "/news/[slug]/image/page": "app/news/[slug]/image/page.js"
+  "/archive/@archive/[[...filter]]/page": "app/archive/@archive/[[...filter]]/page.js"
 }
