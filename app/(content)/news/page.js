@@ -52,7 +52,7 @@ export default async function NewsPage() {
 
   const news = await response.json();*/
 
-  const news = getAllNews();
+  const news = await getAllNews();
 
   return (
     <>
