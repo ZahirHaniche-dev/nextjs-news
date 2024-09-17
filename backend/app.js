@@ -3,6 +3,7 @@ import sqlite from 'better-sqlite3';
 import cors from 'cors';
 
 const DUMMY_NEWS = [
+  
 ];
 
 const db = sqlite('data.db');
