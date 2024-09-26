@@ -1,4 +1,4 @@
-export const DUMMY_NEWS = [
+/*export const DUMMY_NEWS = [
     {
       id: 'n1',
       slug: 'will-ai-replace-humans',
@@ -40,4 +40,4 @@ export const DUMMY_NEWS = [
       date: '2022-07-01',
       content: 'Landscape photography is a great way to capture the beauty of nature. It is also a great way to get outside and enjoy the great outdoors. So what are you waiting for? Get out there and start taking some pictures!',
     },
-  ];
+  ];*/

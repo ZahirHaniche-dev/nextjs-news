@@ -1,28 +1,34 @@
 import React from 'react'
-import { getAvailableNewsYears, getAvailableNewsMonths, getNewsForYear, getNewsForYearAndMonth } from '../../../../../lib/news';
+import { 
+  getAvailableNewsYears, 
+  getAvailableNewsMonths, 
+  getNewsForYear, 
+  getNewsForYearAndMonth 
+} from '../../../../../lib/news';
 import NewsList from '../../../../../components/news-list';
 import Link from 'next/link';
 
-export default function FilteredNewsPage({ params }) {
+export default async function FilteredNewsPage({ params }) {
   const filter = params.filter;
   console.log(filter);
   const selectedYear = filter ?.[0];
   const selectedMonth = filter?.[1];
 
-  let links = getAvailableNewsYears();
+  
   let isYearSelected = false;
 
   let news;
+  let links = await getAvailableNewsYears(); // Assurez-vous que c'est un tableau
 
   if (selectedYear && !selectedMonth) {
-    news = getNewsForYear(selectedYear);
-    links = getAvailableNewsMonths(selectedYear);
+    news = await getNewsForYear(selectedYear);
+    links = getAvailableNewsMonths(selectedYear); // Assurez-vous que links est un tableau
     isYearSelected = true;
   } 
 
 
   if(selectedYear && selectedMonth) {
-    news = getNewsForYearAndMonth(selectedYear, selectedMonth);
+    news = await getNewsForYearAndMonth(selectedYear, selectedMonth);
     links = [];
   }
 
@@ -32,7 +38,9 @@ export default function FilteredNewsPage({ params }) {
     newsContent = <NewsList news={news} />;
   }
 
-  if(selectedYear && !getAvailableNewsYears().includes(selectedYear) || 
+  const availableYears = await getAvailableNewsYears();
+
+  if(selectedYear && !availableYears.includes(selectedYear) || 
   selectedMonth && !getAvailableNewsMonths(selectedYear).includes(selectedMonth)) {
     throw new Error('Invalid filter');
   }
