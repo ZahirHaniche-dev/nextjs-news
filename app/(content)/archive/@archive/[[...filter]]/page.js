@@ -18,11 +18,11 @@ export default async function FilteredNewsPage({ params }) {
   let isYearSelected = false;
 
   let news;
-  let links = await getAvailableNewsYears(); // Assurez-vous que c'est un tableau
+  let links = await getAvailableNewsYears(); 
 
   if (selectedYear && !selectedMonth) {
     news = await getNewsForYear(selectedYear);
-    links = getAvailableNewsMonths(selectedYear); // Assurez-vous que links est un tableau
+    links = getAvailableNewsMonths(selectedYear);
     isYearSelected = true;
   } 
 
