@@ -8,6 +8,9 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
+![image](https://github.com/user-attachments/assets/4358c7e9-c73f-4d4a-9d93-984200443dae)
+
+
 🚀 https://www.udemy.com/course/nextjs-react-the-complete-guide/
 
 ## Description
