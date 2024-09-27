@@ -1,4 +1,5 @@
 
+"use client";
 export default function NewsNotFoundPage() {
   return (
     <div id="error">
