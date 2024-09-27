@@ -1,7 +1,12 @@
-import React from 'react'
+"use client";
+
+import { useContext } from 'react';
+import { MyContext } from '../../../../../context/MyContext.js';
 
 export default function loadingImageNewsItem() {
-  return (
-    <div>loading</div>
-  )
+  const context = useContext(MyContext);
+  if (!context) {
+    return <div>Loading...</div>;
+  }
+  return <div>{context.value}</div>;
 }

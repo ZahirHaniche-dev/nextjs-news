@@ -1,7 +1,12 @@
 "use client";
 
+import { useContext } from 'react';
+import { MyContext } from '../../../../context/MyContext.js';
+
 export default function loadingNewsItem() {
-  return (
-    <div>Loading News Item...</div>
-  )
+  const context = useContext(MyContext);
+  if (!context) {
+    return <div>Loading...</div>;
+  }
+  return <div>{context.value}</div>;
 }

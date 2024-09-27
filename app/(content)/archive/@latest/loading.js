@@ -1,7 +1,12 @@
 "use client";
 
+import { useContext } from 'react';
+import { MyContext } from '../../../context/MyContext';
+
 export default function loadingArchive() {
-  return (
-    <div>Loading Latest...</div>
-  )
+  const context = useContext(MyContext);
+  if (!context) {
+    return <div>Loading...</div>;
+  }
+  return <div>{context.value}</div>;
 }
